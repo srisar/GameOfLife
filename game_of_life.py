@@ -218,7 +218,7 @@ def animate_universe(univ, generations=100):
     gol_animation = animation.ArtistAnimation(fig, ims, interval=30, repeat_delay=3000, blit=True)
 
     # if you want to save the animation into a mp4 file.
-    gol_animation.save('gol.mp4')
+    # gol_animation.save('gol.mp4')
     plt.show()
 
 
